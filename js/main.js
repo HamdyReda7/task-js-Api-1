@@ -17,7 +17,8 @@ function getApi(){
             document.querySelector(".content").innerHTML = myText;
         }
     }
-    xhttp.open("GET", "https://jsonplaceholder.typicode.com/photos");
+    xhttp.open("GET", "https://jsonplaceholder.typicode.com/photos", true );
     xhttp.send();
 }
+
 getApi();
